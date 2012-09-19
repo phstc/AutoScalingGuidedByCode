@@ -1,0 +1,6 @@
+user-data
+se der erro olhar em /var/log/ ... ser for um Amazon Linux AMI estará em /var/log/cloud-init.log
+
+
+git hub + ssh key
+quando for adicionar a chave ssh no github, gerar a chave no root, pois o user data será executado como root
