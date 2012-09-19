@@ -1,7 +1,7 @@
 require "sinatra"
 
 get "/*" do
-  sleep 30
+  # sleep 30
   erb :hello
 end
 
